@@ -56,8 +56,8 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #b71c1c;
+  background-image: linear-gradient(120deg, #01579b, #b71c1c); }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -243,3 +243,23 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+    /* CUSTOM CSS */
+* {
+    margin: 0; padding: 0;
+  }
+
+  #container {
+    overflow: hidden;
+    height: 600px;
+    background: #edeae8;
+    position: relative;
+  }
+
+  video {
+    position: absolute;
+
+    /* Vertical and Horizontal center*/
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+  }
