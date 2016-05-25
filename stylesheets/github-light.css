@@ -122,3 +122,18 @@ SOFTWARE.
   color: #1d3e81;
 }
 
+a,a:hover{
+  text-decoration: none;
+  color:inherit;
+}
+
+.button{
+  background: rgba(0,0,0,0);
+  border: 2px solid white;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.button:hover{
+  background: rgba(255, 255, 255, 0.3);
+}
